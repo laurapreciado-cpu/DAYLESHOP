@@ -1,0 +1,75 @@
+body {
+    background-color: #0f0f0f;
+    font-family: Arial;
+}
+.banner{
+    height: 650px;
+    border-radius: 20px;
+    background-image:
+    linear-gradient(
+        to right,
+        rgba(0,0,0,0.85) 30%,
+        rgba(0,0,0,0.2)
+    ),
+    url("img/imagen1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 80px;
+}
+.contenido-banner{
+    width: 500px;
+}
+.titulo{
+    color: #ffc107;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 90px;
+}
+.banner p{
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.card {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    background-color: white;
+    padding: 10px;
+}
+.card-body {
+    text-align: center;
+}
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+    color: black;
+}
+footer {
+    margin-top: 50px;
+}
+.btn-warning{
+    transition: 0.3s;
+}
+.btn-warning:hover{
+    transform: scale(1.05);
+}
